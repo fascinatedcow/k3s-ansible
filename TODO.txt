@@ -1,0 +1,5 @@
+# Enable zram
+# Annotate nodes
+# Disable unattended upgrades on RPI
+# Reduce journal max mem on RPI
+# Enable shutdown button (install acpid)
