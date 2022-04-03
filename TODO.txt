@@ -1,5 +1,4 @@
-# Enable zram
 # Annotate nodes
-# Disable unattended upgrades on RPI
-# Reduce journal max mem on RPI
+#  - network/wired: true
 # Enable shutdown button (install acpid)
+# Install nfs-common (still necessary after longhorn upgrade?)
