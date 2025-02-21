@@ -4,5 +4,5 @@ ansible_user: mattb
 systemd_dir: /etc/systemd/system
 api_endpoint: "{{ hostvars[groups['server'][0]]['ansible_host'] | default(groups['server'][0]) }}"
 token: K101655d8e09f9a298b5f0df510698461be4f066cc062c6158b5f653c002edede12::server:380f0db25a562acfa5999168d7117234
-extra_server_args: "--disable=traefik --disable=servicelb --feature-gates=PodAffinityNamespaceSelector=true"
+extra_server_args: "--disable=traefik --disable=servicelb --feature-gates=PodAffinityNamespaceSelector=true --flannel-backend=none"
 extra_agent_args: ""
