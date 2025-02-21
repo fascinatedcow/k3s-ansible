@@ -1,5 +1,5 @@
 ---
-k3s_version: v1.29.13+k3s1
+k3s_version: v1.32.1+k3s1
 ansible_user: mattb
 systemd_dir: /etc/systemd/system
 api_endpoint: "{{ hostvars[groups['server'][0]]['ansible_host'] | default(groups['server'][0]) }}"
